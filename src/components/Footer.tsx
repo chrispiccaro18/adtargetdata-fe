@@ -150,6 +150,18 @@ export const Footer = () => {
       </section>
 
       <section className="container pb-14 text-center">
+        <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <h3>
+          Landing page template by{" "}
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            className="text-primary transition-all border-primary hover:border-b-2"
+          >
+            Leo Miranda
+          </a>
+        </h3>
         <h3>
           &copy; 2024 AddTargetData
         </h3>

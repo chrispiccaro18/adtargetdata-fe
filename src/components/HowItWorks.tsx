@@ -10,9 +10,9 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Enter Your Keyword",
+    title: "Describe Your Business",
     description:
-      "Type in your industry or niche.",
+      "Type in your industry, niche, and location.",
   },
   {
     icon: <MapIcon />,

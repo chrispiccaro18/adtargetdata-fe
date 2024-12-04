@@ -2,13 +2,13 @@
 import {
   Card,
   CardContent,
-  CardFooter,
+  // CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+import image from "../assets/001-magnifying-glass.png";
+import image3 from "../assets/002-bullseye-with-arrow.png";
+import image4 from "../assets/003-badge.png";
 
 interface FeatureProps {
   title: string;
@@ -53,7 +53,7 @@ export const Features = () => {
   return (
     <section
       id="benefits"
-      className="container py-24 sm:py-32 space-y-8"
+      className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
         Key{" "}
@@ -61,6 +61,9 @@ export const Features = () => {
           Benefits
         </span>
       </h2>
+      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
+        Unleash your Business
+      </p>
 
       {/* <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
@@ -76,7 +79,7 @@ export const Features = () => {
       </div> */}
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {features.map(({ title, description, image }: FeatureProps) => (
+        {features.map(({ title, description }: FeatureProps) => (
           <Card key={title}>
             <CardHeader>
               <CardTitle>{title}</CardTitle>
@@ -84,13 +87,13 @@ export const Features = () => {
 
             <CardContent>{description}</CardContent>
 
-            <CardFooter>
+            {/* <CardFooter>
               <img
                 src={image}
                 alt="About feature"
-                className="w-[200px] lg:w-[300px] mx-auto"
+                className="mx-auto hue-rotate-90 brightness-150"
               />
-            </CardFooter>
+            </CardFooter> */}
           </Card>
         ))}
       </div>
