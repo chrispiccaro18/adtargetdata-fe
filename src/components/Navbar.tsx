@@ -24,21 +24,21 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#features",
-    label: "Features",
+    href: "#benefits",
+    label: "Benifits",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "#howItWorks",
+    label: "How It Works",
   },
   {
-    href: "#pricing",
-    label: "Pricing",
+    href: "#cta",
+    label: "Join Waitlist",
   },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+  // {
+  //   href: "#faq",
+  //   label: "FAQ",
+  // },
 ];
 
 export const Navbar = () => {
@@ -125,7 +125,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <a
+            {/* <a
               rel="noreferrer noopener"
               href="https://github.com/leoMirandaa/shadcn-landing-page.git"
               target="_blank"
@@ -133,7 +133,7 @@ export const Navbar = () => {
             >
               <GitHubLogoIcon className="mr-2 w-5 h-5" />
               Github
-            </a>
+            </a> */}
 
             <ModeToggle />
           </div>

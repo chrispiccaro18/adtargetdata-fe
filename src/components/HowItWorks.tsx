@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "../components/Icons";
+import { MedalIcon, MapIcon, PlaneIcon } from "../components/Icons";
 
 interface FeatureProps {
   icon: JSX.Element;
@@ -10,28 +10,28 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Enter Your Keyword",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Type in your industry or niche.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Get Results",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "See low-competition keywords and actionable ideas instantly.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Grow Your Business",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Target smarter, rank faster, and attract the right audience.",
   },
-  {
-    icon: <GiftIcon />,
-    title: "Gamification",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
-  },
+  // {
+  //   icon: <GiftIcon />,
+  //   title: "Gamification",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+  // },
 ];
 
 export const HowItWorks = () => {
@@ -45,14 +45,12 @@ export const HowItWorks = () => {
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Works{" "}
         </span>
-        Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        3 Simple Steps.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map(({ icon, title, description }: FeatureProps) => (
           <Card
             key={title}

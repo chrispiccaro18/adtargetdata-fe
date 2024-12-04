@@ -1,7 +1,7 @@
-import { Button } from "./ui/button";
-import { buttonVariants } from "./ui/button";
-import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { EmailForm } from "./ui/email-form"
+// import { HeroCards } from "./HeroCards";
+// import { buttonVariants } from "./ui/button";
+// import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
@@ -26,10 +26,17 @@ export const Hero = () => {
         Simplify your ad campaigns with data-driven insights and actionable recommendations.
         </p>
 
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Get Started</Button>
+        <EmailForm/>
 
-          <a
+        {/* <div className="space-y-4 md:space-y-0 md:space-x-4"> */}
+          {/* <Input
+            placeholder="youremail@gmail.com"
+            className="bg-muted/50 dark:bg-muted/80 w-full md:w-1/3"
+            aria-label="email"
+          />
+          <Button className="w-full md:w-1/3">Join Waitlist</Button> */}
+
+          {/* <a
             rel="noreferrer noopener"
             href="https://github.com/leoMirandaa/shadcn-landing-page.git"
             target="_blank"
@@ -39,17 +46,17 @@ export const Hero = () => {
           >
             Github Repository
             <GitHubLogoIcon className="ml-2 w-5 h-5" />
-          </a>
-        </div>
+          </a> */}
+        {/* </div> */}
       </div>
 
       {/* Hero cards sections */}
       <div className="z-10">
-        <HeroCards />
+        {/* <HeroCards /> */}
       </div>
 
       {/* Shadow effect */}
-      <div className="shadow"></div>
+      {/* <div className="shadow"></div> */}
     </section>
   );
 };
