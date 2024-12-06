@@ -64,7 +64,7 @@ export const EmailForm: React.FC = () => {
           <ErrorMessage name="email" component="div" className="text-red-500 text-sm" />
 
           <Button className="w-full md:w-1/3" type="submit" disabled={isSubmitting}>
-            {isSubmitting ? 'Submitting...' : 'Join Waitlist'}
+            {isSubmitting ? 'Submitting...' : `Discover What's Coming`}
           </Button>
 
           {statusMessage && <div className="text-sm text-green-500">{statusMessage}</div>}

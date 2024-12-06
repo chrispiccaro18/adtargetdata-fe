@@ -1,10 +1,10 @@
-import { Cta } from "./components/Cta";
-import { Features } from "./components/Features";
+// import { Cta } from "./components/Cta";
+// import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { HowItWorks } from "./components/HowItWorks";
+// import { HowItWorks } from "./components/HowItWorks";
 import { Navbar } from "./components/Navbar";
-import { ScrollToTop } from "./components/ScrollToTop";
+// import { ScrollToTop } from "./components/ScrollToTop";
 // import { FAQ } from "./components/FAQ";
 // import { Newsletter } from "./components/Newsletter";
 // import { Pricing } from "./components/Pricing";
@@ -22,17 +22,17 @@ function App() {
       <Hero />
       {/* <Sponsors /> */}
       {/* <About /> */}
-      <Features />
-      <HowItWorks />
+      {/* <Features />
+      <HowItWorks /> */}
       {/* <Services /> */}
-      <Cta />
+      {/* <Cta /> */}
       {/* <Testimonials /> */}
       {/* <Team /> */}
       {/* <Pricing /> */}
       {/* <Newsletter /> */}
       {/* <FAQ /> */}
       <Footer />
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </>
   );
 }

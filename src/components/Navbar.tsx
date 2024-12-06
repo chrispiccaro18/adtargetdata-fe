@@ -1,21 +1,21 @@
-import { useState } from "react";
+// import { useState } from "react";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+// import {
+//   Sheet,
+//   SheetContent,
+//   SheetHeader,
+//   SheetTitle,
+//   SheetTrigger,
+// } from "@/components/ui/sheet";
 
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+// import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
-import { Menu } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
+// import { Menu } from "lucide-react";
+// import { ModeToggle } from "./mode-toggle";
 
 interface RouteProps {
   href: string;
@@ -23,18 +23,18 @@ interface RouteProps {
 }
 
 const routeList: RouteProps[] = [
-  {
-    href: "#benefits",
-    label: "Benifits",
-  },
-  {
-    href: "#howItWorks",
-    label: "How It Works",
-  },
-  {
-    href: "#cta",
-    label: "Join Waitlist",
-  },
+  // {
+  //   href: "#benefits",
+  //   label: "Benifits",
+  // },
+  // {
+  //   href: "#howItWorks",
+  //   label: "How It Works",
+  // },
+  // {
+  //   href: "#cta",
+  //   label: "Join Waitlist",
+  // },
   // {
   //   href: "#faq",
   //   label: "FAQ",
@@ -42,7 +42,7 @@ const routeList: RouteProps[] = [
 ];
 
 export const Navbar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  // const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
@@ -58,7 +58,7 @@ export const Navbar = () => {
           </NavigationMenuItem>
 
           {/* mobile */}
-          <span className="flex md:hidden">
+          {/* <span className="flex md:hidden">
             <ModeToggle />
 
             <Sheet
@@ -106,7 +106,7 @@ export const Navbar = () => {
                 </nav>
               </SheetContent>
             </Sheet>
-          </span>
+          </span> */}
 
           {/* desktop */}
           <nav className="hidden md:flex gap-2">
@@ -135,7 +135,7 @@ export const Navbar = () => {
               Github
             </a> */}
 
-            <ModeToggle />
+            {/* <ModeToggle /> */}
           </div>
         </NavigationMenuList>
       </NavigationMenu>

@@ -2,11 +2,11 @@
 
 export const Footer = () => {
   return (
-    <footer id="footer">
+    <footer className="w-11/12 mx-auto" id="footer">
       <hr className="w-11/12 mx-auto" />
 
-      <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
-        <div className="col-span-full xl:col-span-2">
+      <section className="container py-10 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
+        {/* <div className="col-span-full xl:col-span-2">
           <a
             rel="noreferrer noopener"
             href="/"
@@ -14,7 +14,7 @@ export const Footer = () => {
           >
             AddTargetData
           </a>
-        </div>
+        </div> */}
 
         {/* <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Follow US</h3>
@@ -149,8 +149,8 @@ export const Footer = () => {
         </div> */}
       </section>
 
-      <section className="container pb-14 text-center">
-        <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <section className="container text-center">
+        {/* <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
         <h3>
           Landing page template by{" "}
           <a

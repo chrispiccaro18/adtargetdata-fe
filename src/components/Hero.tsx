@@ -1,29 +1,32 @@
+import { Card, CardContent } from "./ui/card";
 import { EmailForm } from "./ui/email-form"
+import image from "../assets/Cropped_Hero_Graphic.png";
 // import { HeroCards } from "./HeroCards";
 // import { buttonVariants } from "./ui/button";
 // import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
-    <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
+    <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-5">
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
-            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Optimize
+            Marketing {" "}
+            <span className="inline bg-gradient-to-r from-[#68a4d1]  to-[#0078D4] text-transparent bg-clip-text">
+              Analytics
             </span>{" "}
-            Your Digital
+            for the 
           </h1>{" "}
           <h2 className="inline">
-            <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Ad
+            <span className="inline bg-gradient-to-r from-[#ffe493] via-[#FFC107] to-[#ffe493] text-transparent bg-clip-text">
+              AI-Driven
             </span>{" "}
-            Spend
+            Era
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-        Simplify your ad campaigns with data-driven insights and actionable recommendations.
+        Your websites are attracting traffic from AI tools - can you measure their impact? AdTargetData helps marketers track, optimize, and capitalize on this emerging channel.
         </p>
 
         <EmailForm/>
@@ -52,7 +55,11 @@ export const Hero = () => {
 
       {/* Hero cards sections */}
       <div className="z-10">
-        {/* <HeroCards /> */}
+        <Card>
+            <CardContent>
+              <img src={image} alt="" />
+            </CardContent>
+        </Card>
       </div>
 
       {/* Shadow effect */}
