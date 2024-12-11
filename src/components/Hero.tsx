@@ -1,6 +1,7 @@
 import { Card, CardContent } from "./ui/card";
 import { EmailForm } from "./ui/email-form"
 import image from "../assets/Cropped_Hero_Graphic.png";
+import { DemoForm } from "./ui/demo-form";
 // import { HeroCards } from "./HeroCards";
 // import { buttonVariants } from "./ui/button";
 // import { GitHubLogoIcon } from "@radix-ui/react-icons";
@@ -29,7 +30,7 @@ export const Hero = () => {
         Your websites are attracting traffic from AI tools - can you measure their impact? AdTargetData helps marketers track, optimize, and capitalize on this emerging channel.
         </p>
 
-        <EmailForm/>
+        <DemoForm />
 
         {/* <div className="space-y-4 md:space-y-0 md:space-x-4"> */}
           {/* <Input
