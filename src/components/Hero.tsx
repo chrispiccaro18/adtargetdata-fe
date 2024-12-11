@@ -1,5 +1,4 @@
 import { Card, CardContent } from "./ui/card";
-import { EmailForm } from "./ui/email-form"
 import image from "../assets/Cropped_Hero_Graphic.png";
 import { DemoForm } from "./ui/demo-form";
 // import { HeroCards } from "./HeroCards";
