@@ -29,6 +29,8 @@ export const Hero = () => {
         Your websites are attracting traffic from AI tools - can you measure their impact? AdTargetData helps marketers track, optimize, and capitalize on this emerging channel.
         </p>
 
+        <h2>Request a demo to see how your brand is perceived by AI:</h2>
+
         <DemoForm />
 
         {/* <div className="space-y-4 md:space-y-0 md:space-x-4"> */}
