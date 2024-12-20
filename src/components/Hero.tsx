@@ -26,10 +26,10 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-        Your websites are attracting traffic from AI tools - can you measure their impact? AdTargetData helps marketers track, optimize, and capitalize on this emerging channel.
+        Your websites are attracting traffic from AI tools - can you measure their impact? OptAIcs helps marketers track, optimize, and capitalize on this emerging channel.
         </p>
 
-        <h2>Request a site analysis to see how your brand is perceived by AI:</h2>
+        <h2>Request a free site analysis to see how your brand is perceived by AI:</h2>
 
         <DemoForm />
 
