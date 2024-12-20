@@ -163,7 +163,7 @@ export const Footer = () => {
           </a>
         </h3>
         <h3>
-          &copy; 2024 AdTargetData
+          &copy; 2024 OptAIcs
         </h3>
       </section>
     </footer>
