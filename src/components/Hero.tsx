@@ -1,5 +1,4 @@
 import { Card, CardContent } from "./ui/card";
-import image from "../assets/Cropped_Hero_Graphic.png";
 import { DemoForm } from "./ui/demo-form";
 // import { HeroCards } from "./HeroCards";
 // import { buttonVariants } from "./ui/button";
@@ -56,13 +55,13 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="z-10">
+{/*       <div className="z-10">
         <Card>
             <CardContent>
               <img src={image} alt="" />
             </CardContent>
         </Card>
-      </div>
+      </div> */}
 
       {/* Shadow effect */}
       {/* <div className="shadow"></div> */}
