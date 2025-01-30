@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar";
 // import { ScrollToTop } from "./components/ScrollToTop";
 // import { FAQ } from "./components/FAQ";
 // import { Newsletter } from "./components/Newsletter";
-// import { Pricing } from "./components/Pricing";
+import { Pricing } from "./components/Pricing";
 // import { About } from "./components/About";
 // import { Services } from "./components/Services";
 // import { Sponsors } from "./components/Sponsors";
@@ -28,7 +28,7 @@ function App() {
       {/* <Cta /> */}
       {/* <Testimonials /> */}
       {/* <Team /> */}
-      {/* <Pricing /> */}
+      <Pricing />
       {/* <Newsletter /> */}
       {/* <FAQ /> */}
       <Footer />
